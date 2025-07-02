@@ -1,0 +1,48 @@
+# Chest X-ray Disease Classification using CNN, Vision Transformer & Swin Transformer
+This project presents a deep learning pipeline for multi-class classification of chest X-ray images to identify congenital heart diseases such as ASD, VSD, PDA, and Normal conditions. The model combines CNNs (like ResNet50, InceptionV3), a custom Vision Transformer (ViT), and a lightweight Swin Transformer to improve classification accuracy and robustness.
+
+🔍 Key Features
+✅ Preprocessing & balanced sampling of the Congenital Heart Disease dataset from Kaggle
+
+✅ Data augmentation using ImageDataGenerator
+
+✅ Models used:
+
+ResNet50, InceptionV3 (transfer learning CNNs)
+
+Custom Vision Transformer (ViT)
+
+Custom Swin Transformer
+
+✅ Visualizations:
+
+Grad-CAM for model interpretability
+
+Confusion Matrix and Classification Report
+
+Accuracy/Loss plots per epoch
+
+🧠 Dataset
+Kaggle Dataset: nirmalgaud/congenital-heart-disease-dataset
+
+Classes: ASD, PDA, VSD, Normal
+
+🛠️ Tools & Libraries Used
+Python, TensorFlow, Keras
+
+OpenCV, Matplotlib, Seaborn, Scikit-learn
+
+Grad-CAM for model explanation
+
+Custom ViT & Swin Transformer implementations
+
+📊 Results
+Performance evaluated using:
+
+Test Accuracy
+
+Confusion Matrix
+
+Grad-CAM visual heatmaps
+
+Multi-model comparisons for robustness
